@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Squadre e Giocatori</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="squadre.js"></script>
+    <script src="giocatori.js"></script>
+    <script src="carriera.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Seleziona una squadra e un giocatore</h1>
+    <label for="teamSelect">Squadra:</label>
+    <select id="teamSelect">
+        <option value="">-- Seleziona una squadra --</option>
+    </select>
+    <br/>
+    <label for="yearSelect">anno:</label>
+    <select type="year"   id="yearSelect">
+        <option value="">-- seleziona anno --</option>
+        <option value="2024">2024</option>
+        <option value="2023">2023</option>
+    </select>
+    <br/>
+    <label for="playerSelect">Giocatore:</label>
+    <select id="playerSelect" disabled>
+        <option value="">-- Seleziona un giocatore --</option>
+    </select>
+    <br/>
+    <label for="careerList">Carriera:</label>
+    <ul id="careerList"></ul>
+</body>
+</html>
