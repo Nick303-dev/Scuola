@@ -1,26 +1,26 @@
 var carriera = [  {
+    "annocarriera": "2024",
+    "idgiocatore": "1",
+ "idsquadra":"2"
+ },
+  {
+    "annocarriera": "2024",
+    "idgiocatore": "2",
+ "idsquadra":"4"
+ },
+  {
     "anno-carriera": "2024",
     "id-giocatore": "1",
- "id-squadra":"2"
+ "idsquadra":"1"
  },
   {
-    "anno-carriera": "2024",
-    "id-giocatore": "2",
- "id-squadra":"4"
+    "annocarriera": "2023",
+    "idgiocatore": "2",
+ "idsquadra":"3"
  },
   {
-    "anno-carriera": "2024",
-    "id-giocatore": "1",
- "id-squadra":"1"
- },
-  {
-    "anno-carriera": "2023",
-    "id-giocatore": "2",
- "id-squadra":"3"
- },
-  {
-    "anno-carriera": "2023",
-    "id-giocatore": "2",
- "id-squadra":"2"
+    "annocarriera": "2023",
+    "idgiocatore": "2",
+ "idsquadra":"2"
  }
 ];
