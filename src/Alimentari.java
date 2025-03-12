@@ -1,15 +1,20 @@
 public class Alimentari extends Merce
 {
     float calorie;
-
+    boolean isFresco;
 		public Alimentari()
     {
-        throw new NotImplementedException();
+        super();
+        float prezzo;
+
     }
 
     public void calcolaPrezzo()
     {
-        throw new NotImplementedException();
+        if(isFresco) {
+            prezzo =+ 0.02f;
+        }
+
     }
 }
 

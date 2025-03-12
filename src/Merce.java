@@ -4,13 +4,11 @@ public abstract class Merce
     int codice;
     String descrizione;
 
-    protected Merce()
-    {
-        throw new NotImplementedException();
+    public Merce(float prezzo, String descrizione, int codice) {
+        this.prezzo = prezzo;
+        this.descrizione = descrizione;
+        this.codice = codice;
     }
 
-    protected void calcolaPrezzo()
-    {
-        throw new NotImplementedException();
-    }
+    protected abstract void calcolaPrezzo();
 }
